@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { 
   StyleSheet,
   Text,
@@ -21,7 +21,8 @@ import { checkLogin, doLogin, doLogout } from './internet';
 
 const current = '';
 
-export default class App extends React.Component {
+type Props = {};
+export default class App extends Component<Props> {
   constructor() {
     super()
 
