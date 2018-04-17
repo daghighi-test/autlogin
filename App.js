@@ -180,7 +180,7 @@ export default class App extends Component<Props> {
         </Text>
         </View>
         <ImageBackground style={styles.container}  source={require("./assets/background.png")}>
-          <Text style={styles.font}>شما وارد اکانت اینترنت خود شدید</Text>
+          <Text style={styles.font}>شما به اکانت اینترنت خود وارد شدید :دی</Text>
           <TouchableOpacity 
               onPress={() => this._handleLogoutPress()}
               style={{marginBottom: 30}}
