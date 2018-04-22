@@ -124,6 +124,7 @@ export default class App extends Component<Props> {
     const user = await this.getUsername();
     const pass = await this.getPassword();
     this.setState({nameValue: user, secretValue: pass});
+    this._handleLoginPress();
   }
 
   async componentDidMount() {
@@ -163,7 +164,7 @@ export default class App extends Component<Props> {
            انصراف 
         </Text>
         </ImageBackground>
-        </TouchableOpacity>
+        </TouchableOpacity>        
       </ImageBackground>
 
     }
